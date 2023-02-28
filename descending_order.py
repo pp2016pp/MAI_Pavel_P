@@ -1,5 +1,5 @@
 def descending_order(num):
-    return "".join(sorted(str(num), reverse=True))
+    return int("".join(sorted(str(num), reverse=True)))
     """str_num = str(num)
     list_num = []
     for i in str_num:
